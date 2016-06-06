@@ -1,1 +1,10 @@
-<a href="http://chriscoyier.net" target="_blank">This link will open in new window/tab</a>
+script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+    popupWindow = window.open(url,'popUpWindow1','height=600,width=600,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<body>
+  <a href="JavaScript:newPopup('http://stimsonstopmotion.wordpress.com');">Try me</a>
+</body>
